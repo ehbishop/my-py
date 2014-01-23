@@ -1,0 +1,45 @@
+Program:  Lights In-Alike
+file:  first2.py
+
+
+REQUIREMENTS:
+Python 2.6x (earlier than this may work.  Python 3 compatibility doubtful)
+
+Sys module (should be default?)
+
+Random Module (should be default?)
+
+Pygame module (separate download)
+
+firstmouse module (included in this directory)
+
+
+INSTRUCTIONS:
+
+1) Open terminal/command prompt
+2) Use python to open first2.py (terminal  $  python first2.py)
+3) Terminal should ask for number of rows.  The number of rows also determines number of columns.
+4) After number of rows is given, a window will fill in with colored blocks.  
+5) Click on a block to change its color (and the color of non-diagonal adjacent blocks).
+6) You want them all to be blue
+
+
+Note:  Not all random permutations are solvable for some row/column configurations.  
+
+7) Clicking out of the generated window will send a prompt to the terminal asking if you want to play a new game.  Yes will bring you back to number of rows question, no will close the game.  
+
+
+Known bugs:  
+Extremely large row numbers will generate no grid at all.  
+
+The loop needs to be fixed so that quit operations are identical.
+
+NOTE:
+first.py is an earlier version.  
+
+
+
+
+
+
+
